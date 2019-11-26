@@ -788,7 +788,6 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
 	display: inline-block;
-	font-family: "montserrat-medium", sans-serif;
 	font-size: 1.2rem;
 	text-transform: uppercase;
 	letter-spacing: .3rem;
@@ -1225,9 +1224,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .display-2 {
-	font-family: Poppins;
 	font-weight: 600;
-	font-size: 	50px;
+	font-size: 	60px;
 	line-height: 1.255;
 	color: #000;
 	margin-top: 0;
