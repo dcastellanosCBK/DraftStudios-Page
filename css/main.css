@@ -1614,7 +1614,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	height: 42px;
 	width: 42px;
 	line-height: 42px;
-	font-family: "montserrat-medium", sans-serif;
+	font-family: Poppins;
+	font-weight: 600;
 	font-size: 1.3rem;
 	text-transform: uppercase;
 	letter-spacing: .3rem;
