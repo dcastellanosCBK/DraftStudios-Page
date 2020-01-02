@@ -1,10 +1,5 @@
 ==================================================================================================
 
-LINK TO WEBPAGE(GITHUB PAGE):
-https://dcastellanoscbk.github.io/DraftStudios-Page/
-
-==================================================================================================
-
 DESCRIPTION:
 
 GLINT is a modern and stylish digital agency HTML template. Designed for creative designers, agencies
