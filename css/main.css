@@ -2093,7 +2093,7 @@ html.no-csstransitions .home-content__main {
 *
 * ------------------------------------------------------------------- */
 .s-about {
-	padding-top: 16.2rem;
+	padding-top: 12.15rem;
 	padding-bottom: 9rem;
 	background-color: #EB7A7D;
 	color: #010507;
@@ -2266,7 +2266,7 @@ html.no-csstransitions .home-content__main {
 *
 * ------------------------------------------------------------------- */
 .s-services {
-	padding-top: 16.2rem;
+	padding-top: 12.15rem;
 	padding-bottom: 13.2rem;
 	background-color: #fff;
 	color: #757575;
@@ -2397,7 +2397,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .s-works .intro-wrap {
-	padding: 15rem 0 25.2rem;
+	padding: 11.25rem 0 25.2rem;
 	background: #78A7C2;
 }
 
@@ -2564,7 +2564,7 @@ html.no-csstransitions .home-content__main {
 * ------------------------------------------------------------------- */
 .s-clients {
 	overflow-x: hidden;
-	padding-top: 16.2rem;
+	padding-top: 12.5rem;
 	padding-bottom: 16.8rem;
 	background-color: #fff;
 	color: #757575;
@@ -3124,6 +3124,55 @@ html.no-csstransitions .home-content__main {
 #DS_form{
 	border: 1px solid #044059;
 }
+
+@media only screen and (max-width: 800px){
+	.disForm{
+		margin-top: 5rem;
+	}
+	.model-content{
+		/* Spacing */
+		z-index: 1;
+		padding: 1% 5% 0% 5%;
+	}
+	iframe{
+		width: 500px;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	.s-contact .row + .section-body{
+		padding: 0;
+	}
+	.formBtn{
+		z-index: 1;
+		padding-left: 2rem;
+		padding-right: 2rem;
+		text-align: center;
+	}
+	.model-content{
+		/* Spacing */
+		z-index: 1;
+		padding: 1% 5% 0% 5%;
+		margin: 1%;
+		border-radius: 25px;
+	}
+	iframe{
+		width: 400px;
+	}
+}
+
+@media only screen and (max-width: 400px){
+	.disForm{
+		margin-top: 5rem;
+	}
+	.model-content{
+		padding: 1% 7% 0 7%;
+		/*		margin: 1%;*/
+	}
+	iframe{
+		width: 300px;
+	}
+}
 /*--------------------------------------------------------------------------------------------*/
 
 
@@ -3261,7 +3310,7 @@ html.no-csstransitions .home-content__main {
 @media only screen and (max-width: 600px) {
 	.s-contact {
 		padding-top: 12rem;
-		padding-bottom: 0;
+		padding-bottom: 12rem;
 	}
 	.contact__line {
 		height: 14.4rem;
