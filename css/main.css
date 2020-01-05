@@ -75,7 +75,7 @@ html, body {
 
 body {
 	background: #FFFFFF;
-	font-family: Lato;
+	font-family: sans-serif;
 	font-size: 1.7rem;
 	font-style: normal;
 	font-weight: normal;
@@ -111,7 +111,7 @@ a:hover, a:active {
 * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-	font-family: Lato;
+	font-family: sans-serif;
 	color: #000000;
 	font-style: normal;
 	font-weight: normal;
@@ -1212,8 +1212,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 * ## display headings
 * ------------------------------------------------------------------- */
 .display-1 {
-	font-family: Lato;
+	font-family: sans-serif;
 	font-size: 7.8rem;
+	font-weight: 600;
 	line-height: 1.25;
 	color: #000000;
 	margin-top: 0;
@@ -1240,7 +1241,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .subhead {
-	font-family: Lato;
+	font-family: sans-serif;
 	font-size: 1.7rem;
 	line-height: 1.333;
 	text-transform: uppercase;
@@ -1614,7 +1615,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	height: 42px;
 	width: 42px;
 	line-height: 42px;
-	font-family: Lato;
+	font-family: sans-serif;
 	font-weight: 600;
 	font-size: 1.3rem;
 	text-transform: uppercase;
@@ -1759,7 +1760,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content h3 {
-	font-family: Lato;
+	font-family: sans-serif;
 	font-weight: 600;
 	font-size: 1.5rem;
 	color: rgba(255, 255, 255, 0.5);
@@ -1772,7 +1773,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content h1 {
-	font-family: Lato;
+	font-family: sans-serif;
 	font-weight: 400;
 	font-size: 6.3rem;
 	line-height: 1.333;
@@ -1817,7 +1818,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__scroll a {
-	font-family: Lato;
+	font-family: sans-serif;
 	font-size: 1rem;`
 	text-transform: uppercase;
 	letter-spacing: .3rem;
@@ -2112,7 +2113,7 @@ html.no-csstransitions .home-content__main {
 }
 
 #about_p{
-	font-family: Latos;
+	font-family: sans-serifs;
 }
 
 /* -------------------------------------------------------------------
@@ -2440,7 +2441,7 @@ html.no-csstransitions .home-content__main {
 }
 
 #dis{
-	font-family: Lato;
+	font-family: sans-serif;
 	font-size: 2.5rem;
 	width: 100%;
 	text-align: center;
@@ -2455,7 +2456,7 @@ html.no-csstransitions .home-content__main {
 .cap{
 	opacity: 0;
 	position: absolute;
-	font-family: Lato;
+	font-family: sans-serif;
 	top: 0;
 	color: white;
 	z-index: -5;
@@ -2546,11 +2547,11 @@ html.no-csstransitions .home-content__main {
 		width: 100%;
 	}
 	.cap h5{
-		font-family: Lato;
+		font-family: sans-serif;
 		font-size: 2.5rem;
 	}
 	.cap{
-		font-family: Lato;
+		font-family: sans-serif;
 		opacity: 1;
 		position: relative;
 		top: 0;
@@ -3058,7 +3059,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .formBtn{
-	font-family: Lato;
+	font-family: sans-serif;
 	border: 2px solid white;
 	color: white;
 	background-color: transparent;
@@ -3343,7 +3344,7 @@ html.no-csstransitions .home-content__main {
 * ------------------------------------------------------------------- */
 footer {
 	padding: 6rem 0 6rem;
-	font-family: Lato;
+	font-family: sans-serif;
 	font-size: 17px;
 	line-height: 2;
 	text-align: center;
@@ -3469,6 +3470,10 @@ footer .row {
 
 .footer-subscribe #mc-form label i {
 	padding-right: 6px;
+}
+
+.col-three{
+	width: auto;
 }
 
 
